@@ -54,8 +54,8 @@ def main():
 
     L = 76  # 좌측 여백
 
-    # eyebrow — 페이지 .kick 과 동일 문구
-    d.text((L, 92), "안양대학교 국비교육 특강 · 2026. 8. 20",
+    # eyebrow
+    d.text((L, 92), "AI × 국가법령정보 실무 가이드",
            font=f_bold(24), fill=GOLD)
 
     # 타이틀 (헤드라인 두 줄, 숫자만 골드)
