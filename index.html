@@ -43,6 +43,11 @@ h1{font-size:clamp(24px,4vw,36px);font-weight:800;letter-spacing:-.5px;line-heig
 .notice{background:var(--cream);border-left:4px solid var(--ink);padding:14px 16px;margin:22px 0;font-size:14px;line-height:1.65}
 .notice b{font-weight:800}
 
+.series{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#fff;border:1px solid var(--rule);border-radius:10px;padding:11px 15px;margin:18px 0 0;font-size:13.5px;color:#555}
+.series b{color:var(--ink);font-weight:800}
+.series a{margin-left:auto;background:var(--ink);color:#fff;text-decoration:none;font-weight:800;font-size:13px;padding:7px 14px;border-radius:8px;white-space:nowrap}
+.series a:hover{background:var(--gold)}
+
 .toolbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);padding:12px 0;margin:16px 0 8px;border-bottom:1px solid var(--rule);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 #q{flex:1 1 200px;border:1px solid var(--rule);border-radius:10px;padding:10px 14px;font-family:inherit;font-size:14px;outline:none}
 #q:focus{border-color:var(--gold)}
@@ -81,6 +86,11 @@ footer a{color:var(--gold);text-decoration:none;font-weight:700}
     <span class="chip">📖 <b>조회 전용 · 법률자문 아님</b></span>
   </div>
 </header>
+
+<div class="series">
+  <b>시리즈 2 신규</b> · 1인기업·강사·프리랜서·소상공인용 <b>40선</b>도 나왔습니다. 계약·세금·창업·저작권·온라인판매·개인정보·매장·분쟁 8개 분야.
+  <a href="https://kjs369369.github.io/law-mcp-prompts-biz/">시리즈 2 보기 →</a>
+</div>
 
 <div class="notice">
 <b>먼저 읽어주세요.</b> 이 프롬프트들은 <b>법령 MCP가 연결된 상태</b>에서 작동합니다. 연결 전에는 AI가 기억에 의존해 답하므로 조문 번호나 내용이 틀릴 수 있습니다.
@@ -302,6 +312,7 @@ footer a{color:var(--gold);text-decoration:none;font-weight:700}
 </div>
 
 <footer>
+  <a href="https://kjs369369.github.io/law-mcp-prompts-biz/">시리즈 2 — 1인기업·프리랜서·소상공인 40선</a> ·
   <a href="https://koica-law-mcp.vercel.app/">법령 MCP 설치 가이드</a> ·
   <a href="https://open.law.go.kr">OC 키 발급 (법제처)</a> ·
   <a href="https://claude.ai">Claude</a><br>
